@@ -13,11 +13,9 @@ It supports both word-level and character-level models, and uses **confusion mat
    - Language model probability
    - Error likelihood from confusion matrices
   
-##  📁 Project Structure
+## 📁 Files
 
-project-root/
-├── spell_checker.py        # Main implementation
-├── spelling_confusion_matrices.py  # Error tables (external)
-├── corpus/                 # Text data for training LM
-├── test_cases/             # Sample inputs and evaluations
-└── README.md
+- `spell_checker.py` – Main implementation of the spell checker.
+- `spelling_confusion_matrices.py` – Error tables used for modeling common spelling mistakes (insertion, deletion, etc.).
+- `big.txt` – Large text corpus used for training and evaluating the language model.
+- `Tester.py` – Script for running tests and demonstrating how the spell checker works.
